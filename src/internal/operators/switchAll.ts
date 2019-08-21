@@ -36,7 +36,7 @@ export function switchAll<R>(): OperatorFunction<any, R>;
  *   switchAll()
  * ).subscribe(x => console.log(x));
  *
- /* Output
+ &#47;* Output
  *  click
  *  1
  *  2
@@ -50,6 +50,7 @@ export function switchAll<R>(): OperatorFunction<any, R>;
  *  ...
  *  click
  *  ...
+ &#47;*
  * ```
  *
  * @see {@link combineAll}
